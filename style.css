@@ -253,12 +253,14 @@ main {
 
 /* portfolio project images */
 
+
+
 .PreWork {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-.fav-movie {
-  background-image: url("../images/02-portfolio-1.jpg");
+.quiz {
+  background-image: url("../codequiz.png");
 }
 
 .Cowboy {
@@ -266,11 +268,11 @@ main {
 }
 
 .codeRefactor {
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("");
 }
 
 .project-1 {
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("coffee.png");
 }
 
 /* end portfolio project images */
@@ -281,18 +283,22 @@ main {
     justify-content: center;
     text-align: center;
   }
+
   header h1 {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
     font-size: 10vw;
   }
+
   header nav {
     justify-content: center;
   }
+
   .page-section>h2, .page-section>div {
     flex: 0 0 100%;
   }
+
   .page-section>h2 {
     border-right: none;
     border-bottom: 4px solid var(--primary);
@@ -307,17 +313,18 @@ main {
   .flex-item, .flex-item:first-child {
     flex-basis: 100%;
   }
+
   .flex-item:first-child {
     min-height: 150px;
   }
+
   .hero-banner {
     justify-content: center;
     text-align: center;
   }
+
   .contact address {
     flex-direction: column;
     align-items: flex-start;
   }
 }
-
-
