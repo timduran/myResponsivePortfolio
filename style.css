@@ -260,19 +260,23 @@ main {
 }
 
 .quiz {
-  background-image: url("../codequiz.png");
+  background-image: url("codequiz.png");
 }
 
-.Cowboy {
-  background-image: url("../cowboy.jpeg");
+.password {
+  background-image: url("passGen.png");
 }
 
 .codeRefactor {
-  background-image: url("");
+  background-image: url("refactor.png");
 }
 
 .project-1 {
   background-image: url("coffee.png");
+}
+
+.project-ghoat {
+  background-image: url("projectGhoat.png");
 }
 
 /* end portfolio project images */
